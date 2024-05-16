@@ -1,0 +1,11 @@
+.container div{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    float: left;
+    background-color: green;
+}
+.container div:nth-child(even){
+    margin: 10px;
+    background-color: yellow;
+}

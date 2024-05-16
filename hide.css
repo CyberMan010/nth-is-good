@@ -1,0 +1,16 @@
+.container div{
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
+    float: left;
+    background-color: red;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-right: 3px;
+}
+.container div:nth-child(even){
+    margin: 0px;
+    background-color: red;
+    display: none;
+}

@@ -1,0 +1,67 @@
+#container div {
+    float: left;
+    margin: 5px;
+    width: 60px;
+    height: 50px;
+    background: #efefef;
+  }
+  #container div:hover {
+    background: red;
+    box-shadow: 3px 3px 3px rgba(0 , 0, 0.3);
+  }
+  #container div:nth-child(10n+1) {
+    clear: left;
+    
+  }
+  #div1:hover ~ div:nth-child(1n) { background: yellow; }
+  #div2:hover ~ div:nth-child(2n) { background: yellow; }
+  #div3:hover ~ div:nth-child(3n) { background: yellow; }
+  #div4:hover ~ div:nth-child(4n) { background: yellow; }
+  #div5:hover ~ div:nth-child(5n) { background: yellow; }
+  #div6:hover ~ div:nth-child(6n) { background: yellow; }
+  #div7:hover ~ div:nth-child(7n) { background: yellow; }
+  #div8:hover ~ div:nth-child(8n) { background: yellow; }
+  #div9:hover ~ div:nth-child(9n) { background: yellow; }
+  #div10:hover ~ div:nth-child(10n) { background: yellow; }
+  #div11:hover ~ div:nth-child(11n) { background: yellow; }
+  #div12:hover ~ div:nth-child(12n) { background: yellow; }
+  #div13:hover ~ div:nth-child(13n) { background: yellow; }
+  #div14:hover ~ div:nth-child(14n) { background: yellow; }
+  #div15:hover ~ div:nth-child(15n) { background: yellow; }
+  #div16:hover ~ div:nth-child(16n) { background: yellow; }
+  #div17:hover ~ div:nth-child(17n) { background: yellow; }
+  #div18:hover ~ div:nth-child(18n) { background: yellow; }
+  #div19:hover ~ div:nth-child(19n) { background: yellow; }
+  #div20:hover ~ div:nth-child(20n) { background: yellow; }
+  #div21:hover ~ div:nth-child(21n) { background: yellow; }
+  #div22:hover ~ div:nth-child(22n) { background: yellow; }
+  #div23:hover ~ div:nth-child(23n) { background: yellow; }
+  #div24:hover ~ div:nth-child(24n) { background: yellow; }
+  #div25:hover ~ div:nth-child(25n) { background: yellow; }
+  #div26:hover ~ div:nth-child(26n) { background: yellow; }
+  #div27:hover ~ div:nth-child(27n) { background: yellow; }
+  #div28:hover ~ div:nth-child(28n) { background: yellow; }
+  #div29:hover ~ div:nth-child(29n) { background: yellow; }
+  #div30:hover ~ div:nth-child(30n) { background: yellow; }
+  #div31:hover ~ div:nth-child(31n) { background: yellow; }
+  #div32:hover ~ div:nth-child(32n) { background: yellow; }
+  #div33:hover ~ div:nth-child(33n) { background: yellow; }
+  #div34:hover ~ div:nth-child(34n) { background: yellow; }
+  #div35:hover ~ div:nth-child(35n) { background: yellow; }
+  #div36:hover ~ div:nth-child(36n) { background: yellow; }
+  #div37:hover ~ div:nth-child(37n) { background: yellow; }
+  #div38:hover ~ div:nth-child(38n) { background: yellow; }
+  #div39:hover ~ div:nth-child(39n) { background: yellow; }
+  #div40:hover ~ div:nth-child(40n) { background: yellow; }
+  #div41:hover ~ div:nth-child(41n) { background: yellow; }
+  #div42:hover ~ div:nth-child(42n) { background: yellow; }
+  #div43:hover ~ div:nth-child(43n) { background: yellow; }
+  #div44:hover ~ div:nth-child(44n) { background: yellow; }
+  #div45:hover ~ div:nth-child(45n) { background: yellow; }
+  #div46:hover ~ div:nth-child(46n) { background: yellow; }
+  #div47:hover ~ div:nth-child(47n) { background: yellow; }
+  #div48:hover ~ div:nth-child(48n) { background: yellow; }
+  #div49:hover ~ div:nth-child(49n) { background: yellow; }
+  #div50:hover ~ div:nth-child(50n) { background: yellow; }
+  
+  

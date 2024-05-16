@@ -1,0 +1,73 @@
+
+.square1 div{
+    display: inline-block;
+    position: relative;
+    background-color: #cee2f2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.square1 div:nth-child(5){
+    background-color: orange;
+}
+.square2 div{
+    display: inline-block;
+    position: relative;
+    background-color: #cee2f2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.square2 div:nth-child(n+7){
+    background-color: orange;
+}
+.square3 div{
+    display: inline-block;
+    position: relative;
+    background-color: #cee2f2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.square3 div:nth-child(4n+1){
+    background-color: orange;
+}
+.square4 div{
+    display: inline-block;
+    position: relative;
+    background-color: #cee2f2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.square4 div:nth-child(-n+5){
+    background-color: orange;
+}
+.square5 div {
+    display: inline-block;
+    position: relative;
+    background-color: #cee2f2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.square5 div:nth-child(n+7){
+    background-color: orange;
+}
+.square6 div {
+    display: inline-block;
+    position: relative;
+    background-color: #cee2f2;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.square6 div:nth-last-child(2){
+background-color: orange;
+}
